@@ -8,10 +8,19 @@
     <meta name="description" content="Kompetisi Pemuda untuk Perdamaian Dunia">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="500x500" images="ogimage.png">
-    <link rel="apple-touch-icon" sizes="500x500" href="ogeimej.png">
-    <link rel="shortcut icon" type="image/png" href="ogeimej.png">
+    <link rel="icon" type="image/png" sizes="500x500" images="pajang.png">
+    <link rel="apple-touch-icon" sizes="500x500" href="pajang.png">
+    <link rel="shortcut icon" type="image/png" href="pajang.png">
 
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:title" content="MAPK FAIR 2026 | In every Hand Peace Will Stand">
+    <meta property="og:description" content="Kompetisi Pemuda untuk Perdamaian Dunia">
+    <meta property="og:image" content="https://mapkfair.web.id/pajang.png"> <!-- GANTI DENGAN LINK GAMBAR FINAL -->
+    <meta property="og:url" content="https://mapkfair.web.id"> <!-- GANTI DENGAN LINK WEBSITE FINAL -->
+    <meta property="og:type" content="website">
+
+
+    <meta name="google" content="notranslate" />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -300,7 +309,7 @@
                     class="flex-shrink-0 font-poppins font-extrabold text-2xl tracking-tight flex items-center gap-3">
                     <div
                         class="w-12 h-12 bg-white rounded-full flex items-center justify-center overflow-hidden shadow-md border-2 border-white transition-transform duration-200 hover:scale-105">
-                        <img src="ogeimej.png" alt="Logo MAPK Fair" class="w-full h-full object-cover" loading="eager">
+                        <img src="logo.png" alt="Logo MAPK Fair" class="w-full h-full object-cover" loading="eager">
                     </div>
                     <span class="nav-item-text brand-title transition-colors duration-200">MAPK FAIR <span
                             class="nav-item-text brand-year transition-colors duration-200">2026</span></span>
@@ -378,7 +387,8 @@
                 <!-- KIRI: Teks -->
                 <div class="w-full lg:w-1/2 text-center lg:text-left reveal">
                     <div class="flex justify-center lg:hidden mb-8">
-                        <img src="logo.png" class="w-28 h-28 rounded-full shadow-xl border-4 border-white object-cover">
+                        <img src="pajang.png"
+                            class="w-28 h-28 rounded-full shadow-xl border-4 border-white object-cover">
                     </div>
                     <div
                         class="inline-flex items-center px-5 py-2 rounded-full bg-white/20 text-white font-bold text-sm mb-8 border border-white/30 shadow-sm backdrop-blur-sm">
@@ -444,7 +454,7 @@
 
                 <!-- KANAN: Gambar (desktop only) -->
                 <div class="hidden lg:flex w-full lg:w-1/2 justify-center reveal relative mt-10 lg:mt-0">
-                    <img src="ogeimej.png" alt="MAPK Fair 2026 Hero"
+                    <img src="pajang.png" alt="MAPK Fair 2026 Hero"
                         class="w-full max-w-sm md:max-w-md lg:max-w-lg floating-img object-contain z-10 transition-transform duration-300 hover:scale-105">
                 </div>
             </div>
@@ -805,7 +815,7 @@
                         class="text-3xl font-poppins font-extrabold mb-5 text-slate-800 flex items-center justify-center lg:justify-start">
                         <div
                             class="w-10 h-10 rounded-full flex items-center justify-center mr-3 shadow-md border-2 border-white overflow-hidden">
-                            <img src="ogeimej.png" alt="Logo" class="w-full h-full object-cover">
+                            <img src="logo.png" alt="Logo" class="w-full h-full object-cover">
                         </div>MAPK FAIR
                     </h2>
                     <p class="text-slate-600 text-base font-medium leading-relaxed lg:pr-6">Menginspirasi perdamaian
@@ -839,7 +849,7 @@
                                 <i class="fa-brands fa-whatsapp"></i>
                             </div>
                             <div class="text-left w-full">
-                                <p class="text-base font-bold text-slate-800">Kak Yodha (A-E)</p>
+                                <p class="text-base font-bold text-slate-800">Kak Yodha</p>
                                 <p class="text-sm text-slate-500 font-medium">+62 812-8200-7636</p>
                             </div>
                         </a><a href="https://wa.me/6285852223176"
@@ -849,7 +859,7 @@
                                 <i class="fa-brands fa-whatsapp"></i>
                             </div>
                             <div class="text-left w-full">
-                                <p class="text-base font-bold text-slate-800">Kak Misykat (F-J)</p>
+                                <p class="text-base font-bold text-slate-800">Kak Misykat</p>
                                 <p class="text-sm text-slate-500 font-medium">+62 858-5222-3176</p>
                             </div>
                         </a></div>
@@ -910,7 +920,7 @@
                 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
                 // Countdown Timer Logic
-                const countDownDate = new Date("Aug 29, 2026 07:00:00").getTime();
+                const countDownDate = new Date("Aug 29, 2026 00:00:00").getTime();
 
                 const countdownFunction = setInterval(function () {
                     const now = new Date().getTime();
