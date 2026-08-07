@@ -343,8 +343,8 @@
                 <!-- CTA Button Desktop -->
                 <div class="hidden lg:block">
                     <a href="#register"
-                        class="btn-nav-cta px-7 py-2.5 rounded-full font-bold text-sm tracking-wide shadow transition duration-200">
-                        Daftar Sekarang
+                        class="bg-slate-400/80 text-white px-7 py-2.5 rounded-full font-bold text-sm tracking-wide shadow-sm hover:bg-slate-500 transition duration-200">
+                        Pendaftaran Ditutup
                     </a>
                 </div>
 
@@ -373,8 +373,8 @@
 
                 <div class="pt-3 border-t border-slate-200/50 mt-2">
                     <a href="#register"
-                        class="block px-4 py-3 bg-peace-accent text-white rounded-xl font-bold hover:bg-sky-800 transition shadow-md">Daftar
-                        Sekarang</a>
+                        class="block px-4 py-3 bg-slate-400 text-white rounded-xl font-bold transition shadow-md">Pendaftaran
+                        Ditutup</a>
                 </div>
             </div>
         </div>
@@ -419,8 +419,8 @@
                     <!-- HERO BUTTONS - Pastikan di HP tetap 1 baris untuk tombol Daftar Sekarang & Pelajari Event -->
                     <div class="flex flex-col sm:flex-row gap-5 justify-center lg:justify-start hero-buttons">
                         <a href="#register"
-                            class="bg-white text-[#011E55] px-6 py-3 rounded-full font-bold text-base text-center inline-flex items-center justify-center whitespace-nowrap hover:bg-blue-50 transition shadow-lg">
-                            Daftar Sekarang <i class="fa-solid fa-arrow-right ml-2"></i>
+                            class="bg-white/20 text-white border border-white/30 px-6 py-3 rounded-full font-bold text-base text-center inline-flex items-center justify-center whitespace-nowrap hover:bg-white/30 transition shadow-lg backdrop-blur-sm">
+                            <i class="fa-solid fa-lock mr-2"></i> Pendaftaran Ditutup
                         </a>
                         <a href="#about"
                             class="bg-transparent border-2 border-white text-white px-6 py-3 rounded-full font-bold text-base text-center hover:bg-white/10 transition duration-200 shadow-sm inline-flex items-center justify-center whitespace-nowrap">
@@ -730,13 +730,17 @@
                 <div class="timeline-box left-box">
                     <div
                         class="glass-card p-8 rounded-[2rem] hover:bg-white transition duration-200 cursor-default shadow-md border border-white">
-                        <h3 class="text-2xl font-bold text-slate-800 mb-2 font-poppins">Pendaftaran Lomba</h3>
+                        <h3
+                            class="text-2xl font-bold text-slate-800 mb-2 font-poppins flex items-center justify-between">
+                            <span>Pendaftaran Lomba</span>
+                            <span class="text-xs bg-red-100 text-red-600 px-3 py-1 rounded-full font-semibold">Telah
+                                Ditutup</span>
+                        </h3>
                         <p
-                            class="text-base font-bold text-peace-accent mb-3 inline-block bg-blue-50 px-3 py-1 rounded-lg">
+                            class="text-base font-bold text-slate-500 mb-3 inline-block bg-slate-100 px-3 py-1 rounded-lg line-through">
                             <i class="fa-regular fa-calendar mr-2"></i> 22 Juni - 02 Agustus 2026
                         </p>
-                        <p class="text-slate-600 font-medium">Peserta mendaftar melalui portal terpadu dan mengisi form
-                            yang tersedia
+                        <p class="text-slate-600 font-medium">Masa pendaftaran peserta telah resmi berakhir.</p>
                     </div>
                 </div>
                 <div class="timeline-box right-box">
@@ -812,23 +816,24 @@
                 class="bg-white/80 rounded-[3rem] p-12 md:p-24 shadow-xl relative overflow-hidden border-2 border-white">
                 <div class="relative z-10">
                     <div
-                        class="inline-block bg-blue-50 border border-blue-100 text-peace-accent px-5 py-1.5 rounded-full text-sm font-bold mb-8 uppercase tracking-widest">
-                        Pendaftaran Telah Dibuka</div>
-                    <h2 class="text-4xl md:text-6xl font-poppins font-extrabold mb-6 text-slate-800">Satu Langkah untuk
+                        class="inline-block bg-red-50 border border-red-200 text-red-600 px-5 py-1.5 rounded-full text-sm font-bold mb-8 uppercase tracking-widest">
+                        Pendaftaran Resmi Ditutup</div>
+                    <h2 class="text-4xl md:text-6xl font-poppins font-extrabold mb-6 text-slate-800">Terima Kasih atas
                         <span
-                            class="text-transparent bg-clip-text bg-gradient-to-r from-peace-accent to-teal-500">Perdamaian</span>
+                            class="text-transparent bg-clip-text bg-gradient-to-r from-peace-accent to-teal-500">Partisipasimu!</span>
                     </h2>
                     <p class="text-slate-600 text-lg md:text-xl mb-12 max-w-3xl mx-auto font-medium leading-relaxed">
-                        Pendaftaran dipermudah! Hanya melalui satu portal terpadu untuk segala macam perlombaan. Siapkan
-                        data dirimu, asah persiapanmu, dan wujudkan karya masterpiece-mu.</p>
+                        Pendaftaran MAPK FAIR 2026 telah resmi ditutup. Terima kasih atas antusiasme luar biasa dari
+                        seluruh peserta di Indonesia. Pantau terus informasi terbaru mengenai tahapan perlombaan
+                        berikutnya.</p>
 
                     <!-- TOMBOL PORTAL PENDAFTARAN TERPADU - DIPASTIKAN 1 BARIS DI HP -->
                     <div class="flex justify-center items-center w-full">
-                        <a href="https://forms.gle/d3F28pzybcbgNGSX9"
-                            class="btn-primary px-8 py-5 rounded-full font-bold text-lg md:text-xl transition duration-200 inline-flex items-center justify-center whitespace-nowrap register-button-mobile"
+                        <button disabled
+                            class="bg-slate-300 text-slate-500 px-8 py-5 rounded-full font-bold text-lg md:text-xl cursor-not-allowed inline-flex items-center justify-center whitespace-nowrap register-button-mobile shadow-none"
                             style="white-space: nowrap; min-width: fit-content;">
-                            <i class="fa-solid fa-pen-to-square mr-3"></i> Portal Pendaftaran
-                        </a>
+                            <i class="fa-solid fa-lock mr-3"></i> Pendaftaran Ditutup
+                        </button>
                     </div>
                 </div>
             </div>
